@@ -138,19 +138,19 @@ def time_stats(df):
     popular_day = df['day_of_week'].mode()[0]
 
     if popular_day == 0:
-        print('Most Common day:', 'Mon')
+        print('Most Common day:', 'Monday')
     elif popular_day == 1:
-        print('Most Common day:', 'Tue')
+        print('Most Common day:', 'Tuesday')
     elif popular_day == 2:
-        print('Most Common day:', 'Wed')
+        print('Most Common day:', 'Wednesday')
     elif popular_day == 3:
-        print('Most Common day:', 'Thu')
+        print('Most Common day:', 'Thursday')
     elif popular_day == 4:
-        print('Most Common day:', 'Fri')
+        print('Most Common day:', 'Friday')
     elif popular_day == 5:
-        print('Most Common day:', 'Sat')
+        print('Most Common day:', 'Saturday')
     elif popular_day == 6:
-        print('Most Common day:', 'Sun')
+        print('Most Common day:', 'Sunday')
     # display the most common start hour
 
     df['hour'] = df['Start Time'].dt.hour
