@@ -119,17 +119,17 @@ def time_stats(df):
 
     popular_month = df['month'].mode()[0]
     if popular_month == 0:
-        print('Most Common Month:', 'Jan')
+        print('Most Common Month:', 'January')
     elif popular_month == 1:
-        print('Most Common Month:', 'Feb')
+        print('Most Common Month:', 'February')
     elif popular_month == 2:
-        print('Most Common Month:', 'Mar')
+        print('Most Common Month:', 'March')
     elif popular_month == 3:
-        print('Most Common Month:', 'Apr')
+        print('Most Common Month:', 'April')
     elif popular_month == 4:
         print('Most Common Month:', 'May')
     elif popular_month == 5:
-        print('Most Common Month:', 'Jun')
+        print('Most Common Month:', 'June')
     else:
         print('Data not available')
 
