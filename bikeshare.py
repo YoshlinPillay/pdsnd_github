@@ -37,7 +37,7 @@ def get_filters():
     while True:
         city = input("\nWhich city would you like data on? New York City, Chicago or Washington?\n")
         if city not in CITY_DATA:
-            print("Sorry, I didn't quite get that, please try again.")
+            print("Sorry, I didn't quite get that, please re-enter.")
             continue
         else:
             break
@@ -49,7 +49,7 @@ def get_filters():
             "\nDo you want to specify a particular Month?If so, choose a month from : Jan, Feb, Mar, Apr, May, "
             "Jun or type 'all' if you do not have any preference?\n")
         if month.lower().capitalize() not in months:
-            print("Sorry, I didn't quite get that, please try again.")
+            print("Sorry, I didn't quite get that, please re-enter.")
             continue
         else:
             break
@@ -61,7 +61,7 @@ def get_filters():
             "\nDo you want to specify a particular day?If so, choose a day from : Sun, Mon, Tue, Wed, Thu, Fri, "
             "Sat or type 'all' if you do not have any preference.\n")
         if day.lower().capitalize() not in days:
-            print("Sorry, I didn't quite get that, please try again.")
+            print("Sorry, I didn't quite get that, please re-enter.")
             continue
         else:
             break
