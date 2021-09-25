@@ -1,5 +1,5 @@
 ### Date created
-25/09/21
+25th September 2021
 
 ### Project Title
 Bikeshare US Data
